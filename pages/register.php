@@ -26,9 +26,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praktikum Form Danendra</title>
+    <link rel="stylesheet" href="../css/globals.css">
 </head>
 <body>
     <?php include "../layout/header.php"; ?>
+    <main class="page-content form-page">
     <form action=register.php method="POST">
         <fieldset>
             <legend>Register</legend>
@@ -58,6 +60,7 @@
             <label>Ingat Saya</label>
         </fieldset>
     </form>
+    </main>
     <?php include "../layout/footer.php"; ?>
 </body>
 </html>

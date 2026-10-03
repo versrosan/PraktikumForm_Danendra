@@ -35,10 +35,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praktikum Form Danendra</title>
+    <link rel="stylesheet" href="../css/globals.css">
 </head>
 <body>
     <?php include "../layout/header.php"?>
-    <i><?php echo "$login_messages"?></i>
+    <main class="page-content form-page">
+    <i class="form-message"><?php echo "$login_messages"?></i>
     <form action=login.php method="POST">
         <fieldset>
             <legend>Login</legend>
@@ -49,6 +51,7 @@
             <button type="submit" name="login">Login!</button>
         </fieldset>
     </form>
+    </main>
     <?php include "../layout/footer.php"?>
 </body>
 </html>
