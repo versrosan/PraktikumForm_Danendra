@@ -40,7 +40,22 @@
             <input type="email" name="email" placeholder="Masukkan Email Anda">
             <label>Password</label>
             <input type="password" name="password" placeholder="Masukkan Password Anda">
+            <label>Jenis Kelamin</label>
+            <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+            <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+            <label>Agama</label>
+            <select>
+                <option>--Agama Anda--</option>
+                <option>Islam</option>
+                <option>Kristen</option>
+                <option>Katolik</option>
+                <option>Hindu</option>
+                <option>Buddha</option>
+                <option>Konghucu</option>
+            </select>
             <button type="submit" name="register">Daftar!</button>
+            <input type="checkbox" name="ingetgweh">
+            <label>Ingat Saya</label>
         </fieldset>
     </form>
     <?php include "../layout/footer.php"; ?>
