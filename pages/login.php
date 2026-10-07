@@ -49,6 +49,8 @@
             <label>Password</label>
             <input type="password" name="password">
             <button type="submit" name="login">Login!</button>
+            <input type="checkbox" name="ingetgweh">
+            <label>Ingat Saya</label>
         </fieldset>
     </form>
     </main>

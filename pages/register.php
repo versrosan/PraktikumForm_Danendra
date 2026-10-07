@@ -56,8 +56,6 @@
                 <option>Konghucu</option>
             </select>
             <button type="submit" name="register">Daftar!</button>
-            <input type="checkbox" name="ingetgweh">
-            <label>Ingat Saya</label>
         </fieldset>
     </form>
     </main>

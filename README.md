@@ -3,7 +3,7 @@ ANALISIS
 1. Karena password menyembunyikan tulisan password agar lebih aman.
 
 2. Checkbox bisa memilih lebih dari satu, sedangkan radio button hanya satu pilihan.
-Contoh: checkbox = hobi, radio = jenis kelamin.
+   Contoh: checkbox = hobi, radio = jenis kelamin.
 
 3. Karena email dapat mengecek apakah format yang dimasukkan sesuai format email.
 
